@@ -1,0 +1,22 @@
+{
+	"name" : "xinMaxSnippets",
+	"author" : "xin@xinisnot",
+	"description" : "Collection of Max snippets",
+	"max_version_max" : "none",
+	"max_version_min" : "9.0.0",
+	"os" : 	{
+		"macintosh" : 		{
+			"platform" : [ "x64", "aarch64" ],
+			"min_version" : "none"
+		}
+,
+		"windows" : 		{
+			"platform" : [ "x64" ],
+			"min_version" : "none"
+		}
+
+	}
+,
+	"version" : "1.0.0",
+	"website" : ""
+}
