@@ -4,21 +4,47 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 131.0, 1152.0, 506.0 ],
+		"rect" : [ 84.0, 131.0, 967.0, 636.0 ],
 		"openrect" : [ 0.0, 0.0, 330.0, 143.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 570.370360851287842, 243.0, 142.0, 22.0 ],
+					"restore" : 					{
+						"attack slope" : [ 0.0 ],
+						"attack time" : [ 0.0 ],
+						"decay slope" : [ 0.0 ],
+						"decay time" : [ 0.0 ],
+						"final level" : [ 0.0 ],
+						"initial level" : [ 0.0 ],
+						"peak level" : [ 0.0 ],
+						"release slope" : [ 0.0 ],
+						"release time" : [ 0.0 ],
+						"sustain level" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr @autorestore 0",
+					"varname" : "u701002542"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-83",
-					"index" : 0,
+					"index" : 10,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -30,7 +56,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-84",
-					"index" : 0,
+					"index" : 9,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -42,7 +68,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-79",
-					"index" : 0,
+					"index" : 8,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -54,7 +80,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-80",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -66,7 +92,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-81",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -78,7 +104,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-82",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -90,7 +116,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-77",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -102,7 +128,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-78",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -114,7 +140,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-76",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -126,7 +152,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-75",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -246,7 +272,6 @@
 							"parameter_longname" : "attack time",
 							"parameter_mmax" : 20000.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "attack time",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -287,7 +312,6 @@
 							"parameter_longname" : "decay time",
 							"parameter_mmax" : 20000.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "decay time",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -328,7 +352,6 @@
 							"parameter_longname" : "release time",
 							"parameter_mmax" : 20000.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "release time",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -528,7 +551,6 @@
 							"parameter_longname" : "sustain level",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "sustain level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -569,7 +591,6 @@
 							"parameter_longname" : "release slope",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "release slope",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -610,7 +631,6 @@
 							"parameter_longname" : "decay slope",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "decay slope",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -651,7 +671,6 @@
 							"parameter_longname" : "attack slope",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "attack slope",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -692,7 +711,6 @@
 							"parameter_longname" : "final level",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "final level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -733,7 +751,6 @@
 							"parameter_longname" : "peak level",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "peak level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -774,7 +791,6 @@
 							"parameter_longname" : "initial level",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "initial level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -873,7 +889,6 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"attack_time" : 425.066047401133403,
 					"decay_slope" : 0.0,
 					"decay_time" : 85.457366409395746,
@@ -1251,32 +1266,7 @@
 
 			}
  ],
-		"originid" : "pat-7413",
-		"parameters" : 		{
-			"obj-40" : [ "initial level", "initial level", 0 ],
-			"obj-42" : [ "peak level", "peak level", 0 ],
-			"obj-43" : [ "attack slope", "attack slope", 0 ],
-			"obj-44" : [ "final level", "final level", 0 ],
-			"obj-45" : [ "release slope", "release slope", 0 ],
-			"obj-46" : [ "decay slope", "decay slope", 0 ],
-			"obj-47" : [ "sustain level", "sustain level", 0 ],
-			"obj-62" : [ "release time", "release time", 0 ],
-			"obj-63" : [ "decay time", "decay time", 0 ],
-			"obj-64" : [ "attack time", "attack time", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+		"originid" : "pat-67"
 	}
 
 }
